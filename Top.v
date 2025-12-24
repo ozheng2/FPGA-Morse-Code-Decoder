@@ -19,7 +19,7 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-module FinalProj(
+module Top(
     input clk,
 	input btnU,
 	input btnD,
@@ -117,5 +117,6 @@ SevenSeg display(
     .Q( {code[5], code[4], code[3], code[2], code[1], code[0]} ),
     .seg( {seg[6], seg[5], seg[4], seg[3], seg[2], seg[1], seg[0]} )
 );
+
 
 endmodule
